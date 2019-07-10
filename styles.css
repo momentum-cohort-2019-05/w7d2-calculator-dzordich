@@ -1,0 +1,86 @@
+.calc {
+
+}
+
+.xy {
+    white-space: pre;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px;
+    grid-template-areas: 
+        "clear face face face"
+        "seven eight nine divide"
+        "four five six mult"
+        "one two three subtr"
+        "zer dec equals ad"
+        "oper cper . graph";
+        grid-column-gap: 3px;
+        grid-row-gap: 3px;
+}
+
+.clear {
+    grid-area: clear;
+}
+.face {
+    grid-area: face;
+}
+.seven {
+    grid-area: seven;
+}
+.eight {
+    grid-area: eight;
+}
+.nine {
+    grid-area: nine;
+}
+.divide {
+    grid-area: divide;
+}
+.four {
+    grid-area: four;
+}
+.five {
+    grid-area: five;
+}
+.six {
+    grid-area: six;
+}
+.mult {
+    grid-area: mult;
+}
+.one {
+    grid-area: one;
+}
+.two {
+    grid-area: two;
+}
+.three {
+    grid-area: three;
+}
+.subtr {
+    grid-area: subtr;
+}
+.zer {
+    grid-area: zer;
+}
+.dec {
+    grid-area: dec;
+}
+.equals {
+    grid-area: equals;
+}
+.add {
+    grid-area: ad;
+}
+.graph {
+    grid-area: graph;
+}
+.oper {
+    grid-area: oper;
+}
+.cper {
+    grid-area: cper;
+}
