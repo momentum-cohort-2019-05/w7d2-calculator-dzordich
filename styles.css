@@ -16,7 +16,7 @@
         "four five six mult"
         "one two three subtr"
         "zer dec equals ad"
-        "oper cper . graph";
+        "oper cper x graph";
         grid-column-gap: 3px;
         grid-row-gap: 3px;
 }
@@ -83,4 +83,7 @@
 }
 .cper {
     grid-area: cper;
+}
+.x {
+    grid-area: x;
 }
